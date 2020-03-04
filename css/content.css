@@ -1,0 +1,152 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.main-title {
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-description {
+  color: #787878;
+  text-align: center;
+  width: 44%;
+  margin: auto;
+}
+
+.gallery {
+  max-width: 1366px;
+  margin: auto;
+}
+
+.gallery__row {
+  width: 100%;
+  display: flex;
+}
+
+.gallery__row-left {
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
+
+.gallery__row-right {
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
+
+.gallery__row-project {
+  width: 50%;
+  height: 300px;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.gallery__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(33, 191, 186, 0.8);
+  transform: translateY(100%);
+  transition: all ease 0.3s;
+}
+
+.gallery__link-icon {
+  height: 30px;
+  fill: #ffffff;
+}
+
+.gallery__row-project:hover .gallery__link {
+  transform: translateY(0%);
+}
+
+@media (max-width: 960px) {
+  .gallery__row {
+    flex-direction: column;
+  }
+
+  .gallery__row-left {
+    justify-content: center;
+    width: 100%;
+  }
+  .gallery__row-right {
+    width: 100%;
+    justify-content: center;
+  }
+  .gallery__row-project {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-description {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .gallery__row-left,
+  .gallery__row-right {
+    flex-direction: column;
+  }
+
+  .gallery__row-project{
+    margin: auto;
+  }
+}
+
+/* Projects img */
+
+.project-1 {
+  background-image: url(/img/projects/1.png);
+}
+
+.project-2 {
+  background-image: url(/img/projects/2.png);
+}
+
+.project-3 {
+  background-image: url(/img/projects/3.png);
+}
+
+.project-4 {
+  background-image: url(/img/projects/4.png);
+}
+
+.project-5 {
+  background-image: url(/img/projects/5.png);
+}
+
+.project-6 {
+  background-image: url(/img/projects/6.png);
+}
+
+.project-7 {
+  background-image: url(/img/projects/7.png);
+}
+
+.project-8 {
+  background-image: url(/img/projects/8.png);
+}
+
+.project-9 {
+  background-image: url(/img/projects/9.png);
+}
+
+.project-10 {
+  background-image: url(/img/projects/10.png);
+}
+
+.project-11 {
+  background-image: url(/img/projects/11.png);
+}
+
+.project-12 {
+  background-image: url(/img/projects/12.png);
+}

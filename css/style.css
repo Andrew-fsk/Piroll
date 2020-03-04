@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrap {
+  max-width: 1170px;
+  margin: auto;
+}
