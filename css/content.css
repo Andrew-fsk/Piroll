@@ -96,7 +96,7 @@
     flex-direction: column;
   }
 
-  .gallery__row-project{
+  .gallery__row-project {
     margin: auto;
   }
 }
@@ -104,49 +104,49 @@
 /* Projects img */
 
 .project-1 {
-  background-image: url(/img/projects/1.png);
+  background-image: url(../img/projects/1.png);
 }
 
 .project-2 {
-  background-image: url(/img/projects/2.png);
+  background-image: url(../img/projects/2.png);
 }
 
 .project-3 {
-  background-image: url(/img/projects/3.png);
+  background-image: url(../img/projects/3.png);
 }
 
 .project-4 {
-  background-image: url(/img/projects/4.png);
+  background-image: url(../img/projects/4.png);
 }
 
 .project-5 {
-  background-image: url(/img/projects/5.png);
+  background-image: url(../img/projects/5.png);
 }
 
 .project-6 {
-  background-image: url(/img/projects/6.png);
+  background-image: url(../img/projects/6.png);
 }
 
 .project-7 {
-  background-image: url(/img/projects/7.png);
+  background-image: url(../img/projects/7.png);
 }
 
 .project-8 {
-  background-image: url(/img/projects/8.png);
+  background-image: url(../img/projects/8.png);
 }
 
 .project-9 {
-  background-image: url(/img/projects/9.png);
+  background-image: url(../img/projects/9.png);
 }
 
 .project-10 {
-  background-image: url(/img/projects/10.png);
+  background-image: url(../img/projects/10.png);
 }
 
 .project-11 {
-  background-image: url(/img/projects/11.png);
+  background-image: url(../img/projects/11.png);
 }
 
 .project-12 {
-  background-image: url(/img/projects/12.png);
+  background-image: url(../img/projects/12.png);
 }
